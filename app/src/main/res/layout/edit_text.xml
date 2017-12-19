@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <ImageButton
+        android:id="@+id/ib_delete"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="15dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_delete"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ib_hide_keyboard"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_hide_keyboard" />
+
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical"
+        android:layout_toLeftOf="@id/ib_delete"
+        android:layout_toRightOf="@id/ib_hide_keyboard"
+        android:background="@null"
+        android:focusable="true"
+        android:hint="选项1"
+        android:textColor="#333333"
+        android:textColorHint="#999999"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/font_common_2" />
+
+</RelativeLayout>

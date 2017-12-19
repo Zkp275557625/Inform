@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Inform</string>
+    <string name="tv_editor">编辑</string>
+    <string name="tv_next">下一步</string>
+    <string name="tv_cancel">取消</string>
+    <string name="tv_save">保存</string>
+    <string name="tv_add_vote">添加投票</string>
+    <string name="tv_add_text">文本</string>
+    <string name="tv_add_link">链接</string>
+    <string name="tv_add_image">照片</string>
+    <string name="btn_add_music">添加音乐</string>
+    <string name="btn_add_cover">添加封面</string>
+    <string name="link_des">链接描述</string>
+    <string name="link_address">链接地址</string>
+    <string name="link_description">说明:添加的链接地址能够直接在文章里展示，点击后跳转到相应的网页</string>
+    <string name="images">%d images</string>
+    <string name="tv_album">选择图片</string>
+    <string name="tv_selected">完成</string>
+</resources>
